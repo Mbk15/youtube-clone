@@ -1,0 +1,291 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone with HTML & CSS</title>
+  </head>
+  <body>
+    <!-- header goes here  -->
+    <header class="header">
+      <div class="logo left">
+        <i id="menu" class="material-icons">menu</i>
+        <img
+          src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png"
+        />
+      </div>
+
+      <div class="search center">
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <button><i class="material-icons">search</i></button>
+        </form>
+        <i class="material-icons mic">mic</i>
+      </div>
+
+      <div class="icons right">
+        <i class="material-icons">videocam</i>
+        <i class="material-icons">apps</i>
+        <i class="material-icons">notifications</i>
+        <i class="material-icons display-this">account_circle</i>
+      </div>
+    </header>
+    <main>
+      <!-- sidebar structure start  -->
+      <div class="side-bar">
+        <div class="nav">
+          <a class="nav-link active">
+            <i class="material-icons">home</i>
+            <span>Home</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">local_fire_department</i>
+            <span>Trending</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">subscriptions</i>
+            <span>Subscriptions</span>
+          </a>
+          <hr />
+
+          <!-- <div class="nav">
+     hr -->
+          <a class="nav-link">
+            <i class="material-icons">library_add_check</i>
+            <span>Library</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">history</i>
+            <span>History</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">play_arrow</i>
+            <span>Your Videos</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">watch_later</i>
+            <span>Watch Later</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">thumb_up</i>
+            <span>Liked Videos</span>
+          </a>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- sidebar structure end -->
+
+      <!-- main content Start -->
+      <div class="content">
+        <div class="videos">
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://stilearning.com/vision/assets/globals/img/dummy/img-10.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://media.istockphoto.com/photos/teens-using-social-media-picture-id1158014128?b=1&k=20&m=1158014128&s=170667a&w=0&h=LnbS7uuCPk_KxEqf27WCxlZyXabWdFURKS6XkQERyO8="
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>SpaceX & Planet Rotation | Elon Musk</h3>
+                <a href=""> Tesla Von </a>
+                <span> 1.8M Views • 2 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/niUkImZcSP8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8eW91dHViZSUyMHRodW1ibmFpbHxlbnwwfHx8fDE2NDY1NzM5NDE&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://media.istockphoto.com/photos/golden-trophy-cup-on-dark-background-copy-space-for-text-3d-rendering-picture-id1296652778?b=1&k=20&m=1296652778&s=170667a&w=0&h=guJnyq9Xw1HUsdjZ7wXiKYhlaCdbRUoDxORkS_kt564="
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Youtube Award Night | Francis Juliana</h3>
+                <a href=""> Musavsevi Rodri </a>
+                <span> 10M Views • 7 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/73uiBbPXwR8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTN8fHBsYXllcnN8ZW58MHx8fHwxNjQ2NTg4MDQw&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://unsplash.com/photos/6mRaiW6DDCM/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTd8fHBsYXllcnN8ZW58MHx8fHwxNjQ2NTg4MDQw&force=true"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>D'Tigers BasketBall | Team Nigeria</h3>
+                <a href=""> Amaju Pinnick </a>
+                <span> 7M Views • 1 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/7THeGeURXmc/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fHlvdXR1YmUlMjB0aHVtYm5haWx8ZW58MHx8fHwxNjQ2NTczOTQx&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://media.istockphoto.com/photos/closeup-shot-of-a-monitor-with-ekg-data-male-athlete-runs-on-a-with-picture-id925425730?b=1&k=20&m=925425730&s=170667a&w=0&h=sCOoaDw93eS2SFN7FnmSTxhQZc3lSyWt94de0ONl7Fs="
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Biggest Resort In Dubai | Munkamish DeLa Cruise</h3>
+                <a
+                  href="https://media.istockphoto.com/photos/cheerful-black-teenager-playing-vr-game-picture-id1134468917?b=1&k=20&m=1134468917&s=170667a&w=0&h=WRhUlImCQk9kNyHIaUQRO8R-74-sFBOSXVGG3-ixCfo="
+                >
+                </a>
+                <span> 2M Views • 3 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src=" https://media.istockphoto.com/photos/cheerful-black-teenager-playing-vr-game-picture-id1134468917?b=1&k=20&m=1134468917&s=170667a&w=0&h=WRhUlImCQk9kNyHIaUQRO8R-74-sFBOSXVGG3-ixCfo="
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://unsplash.com/photos/k3fmuSvQi2A/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjB8fHlvdXR1YmUlMjB0aHVtYm5haWx8ZW58MHx8fHwxNjQ2NTczOTQx&force=true"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Metaverse Defi | Adewumi Grace</h3>
+                <a href=""> Serena Wumi </a>
+                <span> 2M Views • 3 Months Ago </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/7NhFrPxlgM8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBsYXllcnN8ZW58MHx8fHwxNjQ2NTg4MDQw&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://media.istockphoto.com/photos/my-team-is-doing-very-good-picture-id1295917652?b=1&k=20&m=1295917652&s=170667a&w=0&h=Pc0mS6qej8zTddKQ2ghaBvk24YvgY-i9TiHv5S2b1xA="
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Champions League Final | Santiago Bernabeu</h3>
+                <a href=""> Jim Beglin </a>
+                <span> 19.2M Views • 5 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/dzZhAy5dl8U/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTl8fHlvdXR1YmUlMjB0aHVtYm5haWx8ZW58MHx8fHwxNjQ2NTczOTQx&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://unsplash.com/photos/eOpewngf68w/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fHx8MTY0NjU5NjAyNw&force=true"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Nature is Beautiful | Ngofen Mpubtuwele</h3>
+                <a href=""> James Maddison </a>
+                <span> 16M Views • 2 Yearss Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+          <!-- a video starts -->
+          <div class="video">
+            <div class="thumbnail">
+              <img
+                src="https://unsplash.com/photos/c6C6er9cs3I/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTN8fHlvdXR1YmUlMjB0aHVtYm5haWx8ZW58MHx8fHwxNjQ2NTczOTQx&force=true"
+                alt=""
+              />
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Introverts & Content Creation | Sumudu Siriwardana</h3>
+                <a href=""> Francesco Ciulla </a>
+                <span> 2M Views • 3 Months Ago </span>
+              </div>
+            </div>
+          </div>
+          <!-- a video Ends -->
+        </div>
+      </div>
+      <!-- main content end -->
+    </main>
+    <!-- Main Body Ends -->
+  </body>
+</html>
